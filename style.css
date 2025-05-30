@@ -1,0 +1,441 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Header */
+header {
+  background-color: #f8f8f8;
+  padding: 1rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: orange;
+}
+
+
+
+/* section 2 */
+
+
+.section2 {
+  background-image: url("assests/images/empty-stomatology-orthodontist-bright-office-room-with-nobody-it 1.png");
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+.section2-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 20vh;
+  width: 40vw;
+}
+.container-img h1 {
+  font-size: 18px;
+  padding-top: 5px;
+  padding-left: 40px;
+  padding-top: 12px;
+}
+.container-img h2 {
+  font-size: 18px;
+  color: rgba(78, 78, 78, 1);
+  padding-left: 40px;
+}
+.doc-img {
+  height: 60vh;
+}
+.second-container {
+  background-color: #FFF9F4;
+  height: 60vh;
+  width: 40vw;
+}
+.second-container h1 {
+  color: black;
+  font-family: Figtree;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: start;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.second-container p {
+  color: #474747;
+  font: Figtree;
+  text-align: start;
+  padding-left: 50px;
+  padding-right: 26px;
+}
+
+.form-container {
+      max-width: 400px;
+      margin: auto;
+      background-color: #fff;
+      padding: 1rem;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      margin: 0.5rem 0;
+      border-radius: 50px;
+      border: none;
+      background-color: #f4f4f4;
+    }
+
+    .captcha-wrapper {
+      display: flex;
+      border-radius: 50px;
+      overflow: hidden;
+      margin: 0.5rem 0;
+    }
+
+    .captcha-input {
+      flex: 1;
+      padding: 0.8rem 1rem;
+      border: none;
+      background-color: #f4f4f4;
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+    }
+
+    .captcha-code {
+      background-color: #4b2b16;
+      color: white;
+      padding: 0.8rem 1rem;
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    .form-checkbox {
+      margin-top: 1rem;
+      display: flex;
+      align-items: flex-start;
+      font-size: 0.85rem;
+    }
+
+    .form-checkbox input {
+      margin-right: 0.5rem;
+      margin-top: 0.25rem;
+    }
+
+    .form-checkbox a {
+      color: #4b2b16;
+      text-decoration: underline;
+    }
+
+    .submit-btn {
+      display: block;
+      width: 100%;
+      background-color: #ff8900;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 1rem;
+      font-size: 1rem;
+      margin-top: 1rem;
+      cursor: pointer;
+    }
+
+    .submit-btn:hover {
+      background-color: #e47e00;
+    }
+
+    .icon-text {
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .icon-text img {
+      width: 30px;
+      height: auto;
+      margin-right: 8px;
+    }
+
+    .highlight-number {
+      color: #ff8900;
+      padding-right: 3px;
+      padding-left: 3px;
+    }
+
+
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+      color: #ff8900;
+      font-weight: bold;
+      font-size: 1.8rem;
+    }
+
+    .logo span {
+      color: #4b2b16;
+      font-size: 0.65rem;
+      letter-spacing: 0.2rem;
+      margin-top: -6px;
+    }
+
+    /* Buttons */
+    .header-buttons {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      padding: 0.6rem 1rem;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn-icon {
+      width: 18px;
+      height: 18px;
+      margin-right: 8px;
+    }
+
+    .btn-orange {
+      background-color: #ff8900;
+      color: white;
+      border: none;
+    }
+
+    
+    .btn-orangee {
+      background-color: #ff8900;
+      color: white;
+      border: none;
+      width: 250px;
+      margin-top: 10px;
+      margin-left: 40px;
+    }
+
+    .btn-outline {
+      border: 1px solid #4b2b16;
+      color: #4b2b16;
+      background-color: transparent;
+    }
+
+    .third-section {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .fourth-section {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+
+    .fourth-section h1 {
+      font-size: 24px;
+      font-weight: 700;
+      color: rgba(26, 26, 26, 1);
+      text-align: center;
+    }
+    .fourth-section p {
+      font-size: 20px;
+      font-weight: 400;
+      color: rgba(71, 71, 71, 1);
+      text-align: center;
+    }
+
+    .price-container {
+      display: flex;
+      flex-direction: row;
+      margin: 10px;
+      margin-left: 80px;
+      margin-right: 15px;
+    }
+
+    .dental-img {
+      height: 332px;
+      width: 320px;
+    }
+    .price-content-container {
+      display: flex;
+      flex-direction: column;
+      padding-top : 15px;
+      padding-left: 20px;
+    }
+    .price-content-container h1 {
+      font-size: 20px;
+      text-align: left;
+      font-weight: 700;
+    }
+    .price-content-container p {
+        font-size: 16px;
+        text-align: left;
+        color: rgba(71, 71, 71, 1);
+        font-weight: 400;
+    }
+    .list {
+      color: rgba(71, 71, 71, 1);
+      font-weight: 400;
+      font-size: 16px;
+      padding-left: 30px;
+    }
+
+    .heading {
+      color: orange;
+      font-size: 14px;
+      font-weight: 600;
+      padding-top: 10px;
+    }
+    .list-heading {
+      padding-top: 12px;
+    }
+    .btn-orangie {
+      background-color:rgba(245, 132, 32, 1);
+      color: rgba(255, 255, 255, 1);
+      width: 250px;
+      font-size: 14px;
+      font-weight: 600;
+      text-align: center;
+      border-width: 0px;
+    }
+
+    .fifth-section {
+      display: flex;
+      flex-direction: column;
+     justify-content: space-between;
+
+    }
+
+    .fifth-section h1 {
+      font-size: 24px;
+      font-weight: 700;
+      color: rgba(26, 26, 26, 1);
+      text-align: center;
+    }
+    .fifth-section p {
+      font-size: 20px;
+      font-weight: 400;
+      color: rgba(71, 71, 71, 1);
+      text-align: center;
+    }
+    .testimonial-container {
+      width: 300px;
+      font-family: Arial, sans-serif;
+      margin: 10px;
+      margin-left: 30px;
+    }
+
+    .name-city {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 0.2rem;
+      font-size: 1rem;
+    }
+
+    .name {
+      color: #000;
+      font-weight: 600;
+    }
+
+    .city {
+      color: #ff8900;
+      font-weight: 600;
+    }
+    .fifth-container {
+      display: flex;
+      margin: 30px;
+    }
+
+
+
+
+
+    footer {
+      background-color: #3c1e0f;
+      color: white;
+      padding: 2rem 2rem 1rem;
+    }
+
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .footer-logo {
+      color: #ff8900;
+      font-size: 1.8rem;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-logo span {
+      color: white;
+      font-size: 0.65rem;
+      letter-spacing: 0.2rem;
+      margin-top: -6px;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 2rem;
+      font-size: 0.9rem;
+    }
+
+    .footer-links a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-divider {
+      border-top: 1px solid #ffffff66;
+      margin: 1.5rem 0 1rem;
+    }
+
+    .footer-bottom {
+      text-align: right;
+      font-size: 0.8rem;
+      color: #e0e0e0;
+    }
+
+    
